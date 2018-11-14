@@ -10,7 +10,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "graphql": "^14.0.2"
+    "graphql": "^14.0.2",
+    "winston": "^3.1.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
