@@ -1,0 +1,10 @@
+# Project files
+.idea
+*.iml
+
+# Modules
+node_modules
+
+# Backups
+*~
+
