@@ -2,12 +2,33 @@
 
 Trying out GraphQL to to learn about the code/protocol and features
 
+## Getting Started
+ 
+The code as it stands is just a bunch of tests at the moment.  This setup various things and then 
+attempt to make GraphQL calls.  Eventually this will be expanded to start a server and respond to calls.
 
+### Install Packages
+
+To get up and running execute the following command to install the dependencies for the code
+
+```
+npm install 
+```
+
+
+### Run Tests
+
+The following command will execute the tests
+
+``` 
+npm test
+```
 
 ## References
 
 * List of [GraphQL bindings](https://graphql.org/code/)
 * GraphQL [github](https://github.com/graphql/graphql-js/)
+* Debugging with Proxy() [post](https://stackoverflow.com/questions/20147081/javascript-catch-access-to-property-of-object)
 
 
 ## Troubleshooting
@@ -59,3 +80,5 @@ Similarly running the following command adds Mocha to the dev dependencies
 ```
 npm install mocha --save-dev
 ```
+
+Adding all new packages using the same `npm` command
