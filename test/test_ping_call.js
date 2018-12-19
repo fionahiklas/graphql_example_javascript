@@ -24,7 +24,7 @@ describe('Ping Call', () => {
 
     const ping_resolver_proxy = new Proxy(ping_resolvers, {
       get: function(target, name) {
-        log.debug('Trying to access name: %s', name);
+        log.debug('For ping_resolvers, trying to access name: %s', name);
         return target[name];
       }
     });
